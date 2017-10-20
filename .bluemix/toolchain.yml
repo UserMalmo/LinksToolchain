@@ -22,7 +22,7 @@ services:
       description: 'TestNG Home page'
       type: 'Test NG Home page'
       lifecyclePhase: 'LEARN'
-      imageUrl: 'https://github.com/UserMalmo/LinksToolchain/blob/master/.bluemix/TestNGicon.png'
+      #imageUrl: 'https://github.com/UserMalmo/LinksToolchain/blob/master/.bluemix/TestNGicon.png'
       documentationUrl: 
       dashboard_url: 'http://testng.org/doc/index.html'
   othertool-selenium:
