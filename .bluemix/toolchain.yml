@@ -1,0 +1,67 @@
+---
+version: '2'
+template:
+  name: "A Link Toolchain"
+  description: "This toolchain will be used in Functional System Test."
+  header: '![LinkQuote](LinkQuote.png)'
+  icon: toolchainIcon_UItest.png
+  info:
+    git url: >-
+      [https://github.com/TinaLindhqvist/LinksToolchain](https://github.com/TinaLindhqvist/LinksToolchain)
+    git branch: >-
+      [master](https://github.com/TinaLindhqvist/LinksToolchain/tree/master)
+toolchain:
+  name: 'usefulLINKS-{{timestamp}}'
+  template:
+    getting_started: "Please enjoy the links in this Toolchain"
+services:
+  othertool-testng:
+    service_id: customtool
+    parameters:
+      name: 'TestNG Home page'
+      description: 'TestNG Home page'
+      type: 'Test NG Home page'
+      lifecyclePhase: 'LEARN'
+      #imageUrl: 'https://github.com/TinaLindhqvist/LinksToolchain/blob/master/TestNGicon.png'
+      documentationUrl: 
+      dashboard_url: 'http://testng.org/doc/index.html'
+  othertool-selenium:
+    service_id: customtool
+    parameters:
+      name: 'Selenium Home page'
+      description: 'Selenium Home page'
+      type: 'Selenium Home page'
+      lifecyclePhase: 'LEARN'
+      imageUrl: 'http://www.seleniumhq.org/images/selenium-logo.png'
+      documentationUrl: 
+      dashboard_url: 'http://www.seleniumhq.org/'
+  othertool-stackoverflow:
+    service_id: customtool
+    parameters:
+      name: 'Stack Overflow Home page'
+      description: 'Stack Overflow Home page'
+      type: 'Stack Overflow Home page'
+      lifecyclePhase: 'THINK'
+      imageUrl: 'https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/so/so-icon.svg?v=6e4af45f4d66'
+      documentationUrl: 'http://stackoverflow.com/documentation'
+      dashboard_url: 'http://stackoverflow.com'
+  othertool-w3schools:
+    service_id: customtool
+    parameters:
+      name: 'W3 Schools Home page'
+      description: 'W3 Schools Home page'
+      type: 'W3 Schools Home page'
+      lifecyclePhase: 'CULTURE'
+      imageUrl: 'https://www.w3schools.com/images/w3schools120x90.gif'
+      documentationUrl: 
+      dashboard_url: 'https://www.w3schools.com'
+  othertool-ibm:
+    service_id: customtool
+    parameters:
+      name: 'IBM Home page'
+      description: 'IBM Home page'
+      type: 'IBM Home page'
+      lifecyclePhase: 'MANAGE'
+      imageUrl: ''
+      documentationUrl: 
+      dashboard_url: 'https://www.IBM.com'
